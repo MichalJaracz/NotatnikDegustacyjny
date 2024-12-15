@@ -1,0 +1,64 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="24dp">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#f07d11"
+        android:text="Zarejestruj się"
+        android:gravity="center"
+        android:layout_marginBottom="128dp" />
+    
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Nazwa użytkownika"
+        android:padding="12dp"
+        android:inputType="text"
+        android:textColor="#333333"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Hasło"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Powtórz Hasło"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+    android:id="@+id/register_button"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/rounded_button"
+    android:text="zarejestuj się"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

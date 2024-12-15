@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.AndroidApp1</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\drawable\card_background.xml" />
+    <None Remove="Resources\drawable\ic_profile.png" />
+    <None Remove="Resources\drawable\rounded_button.xml" />
+    <None Remove="Resources\drawable\round_button.xml" />
+    <None Remove="Resources\layout\activity_add_drink.xml" />
+    <None Remove="Resources\layout\activity_profile.xml" />
+    <None Remove="Resources\layout\activity_registration.xml" />
+    <None Remove="Resources\layout\activity_user.xml" />
+    <None Remove="Resources\layout\drink_item.xml" />
+    <None Remove="Resources\layout\edit_text_background.xml" />
+    <None Remove="Resources\values\colors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.15.0.1" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.8.7.1" />
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.3.2.9" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.12.0.1" />
+  </ItemGroup>
+</Project>
